@@ -508,10 +508,19 @@
 <section class="slide" id="contacts">
 	<img src="./pictures/me.png" alt="" width="150" class="me">
 	<div>Настя Катаева</div>
-	<div>
-		<a href="https://t.me/kataeva" class="link">@kataeva</a>
-		<a href="https://twitter.com/tenebricosa" class="link">@tenebricosa</a>
-		<a href="mailto:sakharova@skbkontur.ru" class="link">sakharova@skbkontur.ru</a>
+	<div class="container">
+		<span class="contact">
+			<img src="./pictures/tg.png" alt="" width="30">
+			<a href="https://t.me/kataeva" class="link">kataeva</a>
+		</span>
+		<span class="contact">
+			<img src="./pictures/twitter.svg" alt="" width="30">
+			<a href="https://twitter.com/tenebricosa" class="link">tenebricosa</a>
+		</span>
+		<span class="contact">
+			<img src="./pictures/gmail.png" alt="" width="40" class="gmail">
+			<a href="mailto:sakharova@skbkontur.ru" class="link">sakharova@skbkontur.ru</a>
+		</span>
 	</div>
 	<div>
 		<br><br>
@@ -524,11 +533,28 @@
 		}
 
 		#contacts .link {
-			margin: 0 20px;
+			margin: 0 5px;
+			background: none;
 		}
 
 		#contacts .me {
 			margin-top: 10%;
+		}
+
+		#contacts .contact {
+			display: flex;
+			align-items: center;
+			margin: 0 20px;
+		}
+
+		#contacts .container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#contacts .gmail {
+			margin-top: 3px;
 		}
 	</style>
 </section>
