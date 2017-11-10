@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Введение в специальность. Фронтенд</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+<section class="slide" id="cover">
+	<img class="cover" src="pictures/intro.png" alt="">
+	<div class="subtitle">добро пожаловать во</div>
+	<h1 class="title">фронтенд</h1>
+	<style>
+		#cover {
+			background: black;
+		}
+
+		#cover .cover {
+			top: 38%;
+			filter: brightness(0.6);
+		}
+
+		#cover .title {
+			color: white;
+			bottom: 0;
+			top: unset;
+			font-size: 80px;
+			position: absolute;
+			transform: translateX(-50%);
+			left: 50%;
+			font-weight: bold;
+		}
+
+		#cover .subtitle {
+			color: white;
+			position: absolute;
+			transform: translateX(-50%);
+			left: 50%;
+			bottom: 15%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="about">
+	<img class="me" src="pictures/cool.png" alt="">
+	<h2>Важнейшие события моей профессиональной жизни</h2>
+	<ul>
+		<li>Поступила на Радиофак</li>
+		<li>Стало скучно</li>
+		<li>???</li>
+		<li>Устроилась в Контур</li>
+	</ul>
+	<style>
+		#about .me {
+			position: absolute;
+			right: 15%;
+			bottom: 0;
+			width: 200px;
+		}
+	</style>
+</section>
+
+<section class="slide">
+	<h2 class="shout">Контур.Биллинг</h2>
+</section>
+
+<section class="slide">
+	<img class="cover" src="pictures/billing.jpg" alt="">
+</section>
+
+<section class="slide">
+	<img class="cover" src="pictures/all.jpg" alt="">
+</section>
+
+<section class="slide">
+	<img class="cover" src="pictures/only.jpg" alt="">
+</section>
+
+<section class="slide">
+	<h2>Чем занимается фронтендер?</h2>
+	<ul>
+		<li class="next">Верстка и анимации</li>
+	</ul>
+</section>
+
+<section class="slide" id="elba">
+	<h2>Верстка и анимации</h2>
+	<video width="824" height="534" controls="controls" autoplay loop>
+		<source src="./pictures/elba.mp4" type="video/mp4" />
+	</video>
+
+	<style>
+		#elba video {
+			width: 100%;
+			position: absolute;
+			left: 0;
+			right: 0;
+		}
+	</style>
+</section>
+
+<section class="slide" id="boom">
+	<h2>Чем занимается фронтендер?</h2>
+	<ul>
+		<li>Верстка и анимации</li>
+		<li>Клиентская логика</li>
+		<li class="next">Оптимизация</li>
+		<li class="next">Сборка</li>
+		<li class="next">Борьба с легаси</li>
+		<li class="next">Бомбические презентации</li>
+		<img class="boom next" src="pictures/boom.gif" alt="">
+		<li class="next">И многое другое</li>
+	</ul>
+
+	<style>
+		#boom .boom {
+			position: absolute;
+			right: 5%;
+			bottom: 5%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="race">
+	<h2></h2>
+	<figure>
+		<blockquote>
+			<p>Приходится бежать со всех ног, чтобы только остаться на том же месте, а чтобы попасть в другое место, нужно бежать вдвое быстрее.</p>
+		</blockquote>
+		<figcaption>Льюис Кэрролл</figcaption>
+	</figure>
+	<div class="mayble next"></div>
+	<style>
+		#race .mayble {
+			background: url("./pictures/fear.png");
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: 0;
+			right: 100px;
+			background-size: cover;
+		}
+	</style>
+</section>
+
+<section class="slide" id="point">
+	<h2 class="shout">Ваш основной инструмент — язык.<br>Начните с него.</h2>
+	<style>
+		#point .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="monkey">
+	<div class="cover"></div>
+	<h2>Оставьте библиотеки на потом</h2>
+	<style>
+		#monkey h2 {
+			color: white;
+		}
+
+		#monkey .cover {
+			width: 100%;
+			height: 100%;
+			background-image: url("./pictures/monkey.png");
+			background-size: 115%;
+			background-position: 70% 0;
+			filter: brightness(0.6);
+		}
+	</style>
+</section>
+
+<section class="slide" id="monkey-2">
+	<img class="cover" src="./pictures/frameworks.png" alt="">
+	<h2>И даже фреймворки не трогайте</h2>
+	<style>
+		#monkey-2 h2 {
+			color: white;
+		}
+
+		#monkey-2 .cover {
+			filter: brightness(0.6);
+			max-width: none;
+			left: 56%;
+			width: 115%;
+			max-height: none;
+		}
+	</style>
+</section>
+
+<section class="slide" id="study">
+	<h2 class="title">Идите от проблемы к инструменту, а не наоборот</h2>
+	<img class="cover" src="./pictures/study.png" alt="">
+	<style>
+		#study .cover {
+			max-width: none;
+			filter: brightness(0.6);
+		}
+
+		#study .title {
+			position: absolute;
+			left: 0;
+			right: 0;
+			white-space: nowrap;
+			text-align: center;
+			bottom: -10px;
+			color: white;
+		}
+	</style>
+</section>
+
+<section class="slide" id="beginning">
+	<h2>Так, с чего начать?</h2>
+	<ul>
+		<li class="next">
+			You Don't Know JS
+			<img class="ydnjs" src="./pictures/ydnjs.png" alt="">
+		</li>
+		<li class="next">
+			HTML Academy
+			<img class="keks" src="./pictures/keks.svg" alt="">
+		</li>
+	</ul>
+
+	<style>
+		#beginning .ydnjs {
+			left: 10%;
+			position: absolute;
+			top: 50%;
+			width: 250px;
+		}
+
+		#beginning .keks {
+			left: 35%;
+			position: absolute;
+			top: 42%;
+			width: 300px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="new-chapter">
+	<h2 class="title">Верстка</h2>
+	<img class="cover" src="./pictures/dipper.png" alt="">
+
+	<style>
+		#new-chapter .cover {
+			max-width: none;
+		}
+
+		#new-chapter .title {
+			color: white;
+			top: 13%;
+			position: relative;
+			left: 10%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="two-types">
+	<h2 class="shout">Мир делится на два типа людей</h2>
+	<style>
+		#two-types .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="first-type">
+	<h2 class="title">1. Я верстаю! Я рок-звезда!</h2>
+	<img class="cover" src="./pictures/first-type.jpg" alt="">
+
+	<style>
+		#first-type .cover {
+			max-width: none;
+			left: 52%;
+		}
+
+		#first-type .title {
+			color: white;
+		}
+	</style>
+</section>
+
+<section class="slide" id="second-type">
+	<h2 class="title">2. Я не хочу с этим связываться!</h2>
+	<img class="cover" src="./pictures/second-type.jpg" alt="">
+
+	<style>
+		#second-type .cover {
+			max-width: none;
+		}
+
+		#second-type .title {
+			color: white;
+		}
+	</style>
+</section>
+
+<section class="slide" id="wrong">
+	<h2 class="shout">Опять в интернете кто-то неправ</h2>
+	<style>
+		#wrong .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="ie">
+	<img src="./pictures/ie.jpg" alt="" class="cover">
+
+	<style>
+		#ie .cover {
+			max-width: none;
+			width: 112%;
+			max-height: none;
+		}
+	</style>
+</section>
+
+<section class="slide" id="no-war">
+	<h2 class="shout">Войны с кроссбраузерностью больше нет</h2>
+	<style>
+		#no-war .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="ie-human">
+	<img src="./pictures/ie-human.jpg" alt="" class="cover">
+
+	<style>
+		#ie-human .cover {
+			max-width: none;
+			left: 45%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="continuing">
+	<h2>Так, с чего начать?</h2>
+	<ul>
+		<li class="next">
+			HTML Academy
+			<img class="keks" src="./pictures/keks.svg" alt="">
+		</li>
+		<li class="next">
+			W3Schools
+			<img class="w3c" src="./pictures/w3schools.png" alt="">
+		</li>
+		<li class="next">
+			Сверстайте сайт бабушке
+			<img class="granny" src="./pictures/granny.png" alt="">
+		</li>
+	</ul>
+
+	<style>
+		#continuing .keks {
+			left: 7%;
+			position: absolute;
+			top: 50%;
+			width: 300px;
+		}
+
+		#continuing .w3c {
+			left: 35%;
+			position: absolute;
+			top: 68%;
+			width: 300px;
+		}
+
+		#continuing .granny {
+			left: 67%;
+			position: absolute;
+			top: 42%;
+			width: 300px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="pause">
+	<h2 class="shout">Верстка и JS — это все?</h2>
+	<style>
+		#pause .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="solder">
+	<h2 class="title">Фронты — универсальные солдаты</h2>
+	<img src="./pictures/solder.jpg" alt="" class="cover">
+
+	<style>
+		#solder .cover {
+			max-width: none;
+		}
+
+		#solder .title {
+			color: white;
+			bottom: 0;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+			left: 0;
+		}
+	</style>
+</section>
+
+<section class="slide">
+	<h2>Фронты — универсальные солдаты</h2>
+	<ul>
+		<li>Немного дизайнеры</li>
+		<li class="next">Немного бэкендеры</li>
+		<li class="next">Чуть-чуть тестировщики</li>
+		<li class="next">Сами себе менеджеры</li>
+		<li class="next">И просто волшебники</li>
+	</ul>
+</section>
+
+<section class="slide" id="magic">
+	<img src="./pictures/magic.png" alt="" class="cover">
+
+	<style>
+		#magic .cover {
+			max-width: none;
+		}
+	</style>
+</section>
+
+<section class="slide" id="plan">
+	<h2>Конечно, нужен план</h2>
+	<ul>
+		<li>Разберитесь с HTML и CSS</li>
+		<li class="next">Начните учить JavaScript</li>
+		<li class="next">Практикуйтесь</li>
+		<li class="next">Учите английский</li>
+		<li class="next">Вливайтесь в сообщество
+			<img src="./pictures/uraljs.svg" alt="" class="uraljs">
+		</li>
+		<li class="next">Не бойтесь обращаться за помощью</li>
+		<li class="next">Продолжайте копать</li>
+	</ul>
+
+	<style>
+		#plan .uraljs {
+			position: absolute;
+			right: 10%;
+			bottom: 10%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="really">
+	<h2 class="shout">Сложно, но можно</h2>
+
+	<style>
+		#really .shout {
+			font-size: 80px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="together">
+	<img src="./pictures/together.png" alt="" class="cover">
+
+	<style>
+		#together .cover {
+			max-width: none;
+		}
+	</style>
+</section>
+
+<section class="slide" id="link">
+	<h2 class="shout"><a href="">Список действительно полезных ресурсов</a></h2>
+
+	<style>
+		#link .shout {
+			font-size: 60px;
+		}
+	</style>
+</section>
+
+<section class="slide" id="contacts">
+	<img src="./pictures/me.png" alt="" width="150" class="me">
+	<div>Настя Катаева</div>
+	<div>
+		<a href="https://t.me/kataeva" class="link">@kataeva</a>
+		<a href="https://twitter.com/tenebricosa" class="link">@tenebricosa</a>
+		<a href="mailto:sakharova@skbkontur.ru" class="link">sakharova@skbkontur.ru</a>
+	</div>
+
+	<style>
+		#contacts {
+			text-align: center;
+		}
+
+		#contacts .link {
+			margin: 0 20px;
+		}
+
+		#contacts .me {
+			margin-top: 10%;
+		}
+	</style>
+</section>
+
+<section class="slide" id="what">
+	<img class="cover" src="pictures/what.png" alt="">
+	<style>
+		#what .slide {
+			background: black;
+		}
+
+		#what .cover {
+			max-width: none;
+		}
+	</style>
+</section>
+
+<div class="progress"></div>
+
+<script src="node_modules/shower-core/shower.min.js"></script>
+<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
